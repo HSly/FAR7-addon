@@ -20,7 +20,7 @@
 		(function checkStart(){
 			if(document.querySelector('#commbar .jxBarContainer')){
 				var s = document.createElement('script');
-					s.src = 'https://raw.github.com/3y3/FAR7-addon/master/FAR7.source.js?'+new Date().getTime();
+					s.src = 'https://raw.github.com/HSly/FAR7-addon/master/FAR7.source.js?'+new Date().getTime();
 					document.head.appendChild(s);			
 			}
 			else{
